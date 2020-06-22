@@ -46,13 +46,13 @@ Author URI:
 .spinner {
   width: 40px;
   height: 40px;
-  background-color: #333;
+  background-color: #fff;
 
 position: absolute;
 top: 48%;
 left: 48%;
-  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
-  animation: sk-rotateplane 1.2s infinite ease-in-out;
+  -webkit-animation: sk-rotateplane 2.2s infinite ease-in-out;
+  animation: sk-rotateplane 2.2s infinite ease-in-out;
 }
 
 @-webkit-keyframes sk-rotateplane {
