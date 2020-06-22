@@ -3,6 +3,7 @@
 <html lang="en">
 
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,10 +28,16 @@
     <script src="owl/assets/vendors/jquery.min.js"></script>
     <script src="owl/assets/owlcarousel/owl.carousel.js"></script>
     <!-- Owl Items -->
+
+
 </head>
 
 <body>
     
+    <!--CSS Spinner-->
+<div class="spinner-wrapper">
+<div class="spinner"></div>
+</div>
       
 
     <section>
@@ -573,7 +580,17 @@
       </script>
 
 
-
+<script>
+$(document).ready(function() {
+//Preloader
+preloaderFadeOutTime = 500;
+function hidePreloader() {
+var preloader = $('.spinner-wrapper');
+preloader.fadeOut(preloaderFadeOutTime);
+}
+hidePreloader();
+});
+</script>
 
 
   </body>
